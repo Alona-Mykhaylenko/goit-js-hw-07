@@ -1,10 +1,11 @@
 
 const nameInput = document.querySelector('#name-input');
+const nameOuput = document.querySelector('#name-output');
 
 const inputFunction = () => {
     if (nameInput.value !== '') {
-    document.querySelector('#name-output').textContent = nameInput.value;}
-    else {document.querySelector('#name-output').textContent = `незнакомец`};
+    nameOuput.textContent = nameInput.value;}
+    else {nameOuput.textContent = `незнакомец`};
 
 }
 
